@@ -11,9 +11,10 @@ Anchored in Computer Science, I orchestrate swarms of AI agents across Claude Co
 Most of my work lives in private repositories and organizations, so little of it shows here. Counted from git, that's 8,858 commits since 2023.
 
 ```mermaid
+%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': '#1f5a4c'}}}}%%
 xychart-beta
   title "Commits per quarter"
-  x-axis ["23 Q4", "24 Q1", "24 Q2", "25 Q1", "25 Q2", "25 Q3", "25 Q4", "26 Q1", "26 Q2", "26 Q3", "26 Q4"]
+  x-axis ["23 Q4", "24 Q1", "24 Q2", "25 Q1", "25 Q2", "25 Q3", "25 Q4", "26 Q1", "26 Q2", "26 Q3", "26 Q4 (to date)"]
   y-axis "Commits"
   bar [17, 58, 4, 265, 2229, 233, 201, 429, 2132, 2356, 934]
 ```
