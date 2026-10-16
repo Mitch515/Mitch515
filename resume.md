@@ -11,10 +11,11 @@ Anchored in Computer Science, I orchestrate swarms of AI agents across Claude Co
 ### Wealth Navigator · Software Lead
 `Apr 2026 – Present` · Lead-generation agency running LinkedIn, email, and phone outreach for financial advisors; I lead all of its software.
 
-- Architected the client platform: an operator dashboard, a client approval portal for advisors, marketing sites, background jobs, LinkedIn automation, and an in-product AI agent that researches, drafts, and runs workflows. The agent and the dashboard share one service layer, which an MCP server also opens to outside AI agents.
-- Delivered an in-house sales platform from first commit to live calling in 7 weeks: Twilio browser softphone, call recording, transcription, AI call notes and outcomes, AI research on every lead, and a Postgres CRM. Since August: **2,000+** calls, **6,700** leads, **11,500+** research jobs, and **10,000+** logged interactions.
-- Established human-in-the-loop approval: agents draft and stage, and sales reps press Send. Canadian do-not-call and anti-spam (CASL) rules, recording disclosure, suppression lists, and duplicate-send protection are enforced in code the agents cannot bypass.
-- Engineered cold-email delivery across 100 mailboxes, with one agent writing each email and an independent agent reviewing it, LLM reply classification, bounce and complaint cut-offs, and per-inbox pacing.
+- Architected the client platform: an operator dashboard, a client approval portal for advisors, marketing sites, background jobs, and an in-product AI agent that researches, drafts, and runs workflows on one service layer, which an MCP server also opens to outside AI agents.
+- Engineered a LinkedIn courtship engine: one durable AI agent per prospect runs the campaign playbook, from engaging with posts to connecting and messaging, through multi-step workflows that draft human-sounding comments and DMs. Since May: **26,000+** prospects AI-analyzed and **9,700+** LinkedIn actions, including **1,900+** comments; a pilot advisor's monthly comments grew over 12x in four months.
+- Delivered an in-house sales platform from first commit to live calling in 7 weeks: Twilio browser softphone, call recording, transcription, AI call notes and outcomes, AI research on every lead, and a Postgres CRM. Since August: **2,000+** calls, **6,700** leads, and **11,500+** research jobs.
+- Kept every agent human-in-the-loop: agents draft and stage, people send, and do-not-call, anti-spam (CASL), recording-disclosure, suppression, and duplicate-send checks run in code the agents cannot bypass.
+- Built cold-email delivery across 100 mailboxes: one agent writes, another reviews, and an LLM classifies replies.
 - Shipped **4,200+** commits and **430+** pull requests in six months by orchestrating swarms of AI agents. Every pull request includes Playwright end-to-end test results and a recorded walkthrough.
 
 `TypeScript` `SvelteKit` `Postgres` `Drizzle` `Redis/BullMQ` `Railway` `Twilio` `Vercel AI SDK` `MCP` `WorkOS` `Microsoft Graph`

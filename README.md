@@ -4,7 +4,7 @@
 
 Anchored in Computer Science, I orchestrate swarms of AI agents across Claude Code, Codex, and Cursor to produce production-grade software. Since January 2025: **8,700+** commits across 35 repositories. In the last 90 days: **3,300+** agent sessions processing **83B** tokens. My approach combines technical rigor, commercial acumen, and end-to-end operational ownership.
 
-**Now:** Software Lead at [Wealth Navigator](https://getwealthnavigator.com). Delivered an in-house sales platform from first commit to live calling in 7 weeks: Twilio browser softphone, call recording, transcription, AI call notes and outcomes, AI research on every lead, and a Postgres CRM. Since August: **2,000+** calls, **6,700** leads, **11,500+** research jobs, and **10,000+** logged interactions.
+**Now:** Software Lead at [Wealth Navigator](https://getwealthnavigator.com). Engineered a LinkedIn courtship engine: one durable AI agent per prospect runs the campaign playbook, from engaging with posts to connecting and messaging, through multi-step workflows that draft human-sounding comments and DMs. Since May: **26,000+** prospects AI-analyzed and **9,700+** LinkedIn actions, including **1,900+** comments; a pilot advisor's monthly comments grew over 12x in four months.
 
 **Before:** Co-Founder of Top Frag. Scaled the academy to **6,000+** members and **$100K+** in first-year revenue; achieved **2M+** monthly YouTube views within two months of launch.
 
@@ -23,11 +23,10 @@ xychart-beta
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Wealth Navigator platform** | Architected the client platform: an operator dashboard, a client approval portal for advisors, marketing sites, background jobs, LinkedIn automation, and an in-product AI agent that researches, drafts, and runs workflows. The agent and the dashboard share one service layer, which an MCP server also opens to outside AI agents. | TypeScript, SvelteKit, Postgres, Drizzle, Redis/BullMQ, Railway |
+| **Wealth Navigator platform** | Architected the client platform: an operator dashboard, a client approval portal for advisors, marketing sites, background jobs, and an in-product AI agent that researches, drafts, and runs workflows on one service layer, which an MCP server also opens to outside AI agents. | TypeScript, SvelteKit, Postgres, Drizzle, Redis/BullMQ, Railway |
 | **swarmd** | Supervisor for fleets of Claude and Codex coding agents: verifies each agent's model, pauses at usage limits without spending retries, and stops two agents from editing the same files. | TypeScript, SQLite |
 | **CLI Lake** | Desktop manager for coding-agent CLIs; a Rust daemon runs projects, repositories, and terminal sessions behind one React interface. | Rust, React, Electron |
 | **canvas-io** | Coding-agent workspace on an infinite canvas, with an independent agent per card and GraphQL streaming. | SvelteKit, GraphQL, Vercel AI SDK |
-| [Little Brick Things](https://little-brick-things.lego-etsy.workers.dev/) | Live gift store taking real payments; Python pipelines render the product images. | Cloudflare Workers, D1, Stripe |
 
 ## Agent usage
 
